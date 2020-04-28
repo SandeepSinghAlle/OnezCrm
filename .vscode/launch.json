@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "startupObjectId": 22,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "schemaUpdateMode": "Synchronize",
+        },
+        // {
+        //     "type": "al",
+        //     "request": "launch",
+        //     "name": "Your own server",
+        //     "server": "http://localhost",
+        //     "serverInstance": "BC130",
+        //     "authentication": "UserPassword",
+        //     "startupObjectId": 22,
+        //     "startupObjectType": "Page",
+        //     "breakOnError": true
+        // }
+    ]
+}
